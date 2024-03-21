@@ -248,7 +248,6 @@ int main(int argc,char * argv[])
 	string file="SalesJan2009.csv";
 
 	
-	//CREATING VECTOR OF CLASS TRANSACTIONS BELOW-SKELETON CODE
 	//vector to hold all the transactions
 	vector<Transaction> transactions;
 
@@ -261,11 +260,10 @@ int main(int argc,char * argv[])
 	transactions=readFile(bigFile);
 
 
-	//THIS SUCCESFULLY CALLS readFile() FUNCTION-SKELETON CODE
 	cout<<"Reading SalesJan2009.csv"<<endl;//output message
 	transactions= readFile(file);//assigns the vector returning function to the vector made above
 
-	//OUTPUT MESSAGE-SKELETON CODE
+	//OUTPUT MESSAGE
 	cout <<"File read."<<transactions.size()<<" transactions returned"<<endl;
 
 	
