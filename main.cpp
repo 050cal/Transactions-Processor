@@ -237,7 +237,6 @@ void sortAndPrint(vector<T> records,int size)
 int main(int argc,char * argv[])
 {
 	
-	//ASSIGNING STRING VARIABLES BELOW-SKELETON CODE
 	//Wrong file name
 	string wrongFile="wrongfile.csv";
 
